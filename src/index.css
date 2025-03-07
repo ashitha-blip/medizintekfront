@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Hide scrollbar but allow scrolling */
+html, body {
+  overflow: auto;
+}
+
+/* Optional: Hide scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
